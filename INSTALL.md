@@ -1,19 +1,12 @@
-### [Foobar](https://foobar.com)
+### [Docker](https://www.docker.com)
 
-#### Install using Git
+#### Set up the theme
 
-If you are a git user, you can install the theme and keep up to date by cloning the repo:
+Set the `BUILDKIT_COLORS` environment variable in your shell and make sure
+it is exported, typically for example:
 
-```bash
-git clone https://github.com/dracula/foobar.git
+```shell
+# https://draculatheme.com/docker
+BUILDKIT_COLORS="run=189,147,249:cancel=241,250,140:error=255,85,85:warning=241,250,140"
+export BUILDKIT_COLORS
 ```
-
-#### Install manually
-
-Download using the [GitHub `.zip` download](https://github.com/dracula/foobar/archive/main.zip) option and unzip them.
-
-#### Activating theme
-
-1. Do this;
-2. Then that;
-3. Boom! It's working ✨
